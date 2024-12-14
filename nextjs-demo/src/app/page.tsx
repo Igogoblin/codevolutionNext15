@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Counter } from "./components/counter";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <Counter />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
@@ -20,7 +22,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>You finish on six minutes</li>
+          <li>You finish 14.00 minutes</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
